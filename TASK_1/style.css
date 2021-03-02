@@ -1,0 +1,617 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1920px;
+    height: 1080px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+}
+
+.main-nav {
+    width: 480px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+.pineapple-logo img {
+    width: 78px;
+    height: 16px;
+    margin-left: 11px;
+    margin-bottom: 3px;
+}
+
+.logo a {
+    display: inline;
+    text-decoration: none;
+}
+
+.main-nav ul, .main-nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul {
+    margin-left: 113px;
+    margin-bottom: 3px;
+}
+
+.main-nav-link {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    color: #6A707B;
+    margin-left: 26px;
+}
+
+.main-nav-link:hover {
+    color: #4066A5;
+}
+
+.main-nav-link:active {
+    color: #6A707B;
+}
+
+.main-nav-link.first {
+    margin-left: -4px;
+    position: absolute;
+    left: 335px;
+    top: 114px;
+} 
+
+.main-nav-link.second {
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    left: 377px;
+    top: 114px;
+}
+
+.main-nav-link.third {
+    position: absolute;
+    width: 56px;
+    height: 26px;
+    left: 498px;
+    top: 114px;
+}
+
+.main-heading {
+    position: absolute;
+    width: 399px;
+    height: 44px;
+    left: 140px;
+    top: 353px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.main-subheading {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 140px;
+    top: 418px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+}
+
+.subscribtion-form {
+    position: absolute;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #E3E3E4;
+    height: 70px;
+}
+
+.email-container:hover {
+    border-color: #4066A5;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+    color: #4066A5;
+}
+
+.email-container:hover svg {
+    fill:  #4066A5;
+}
+
+#email:focus {
+    outline: none;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+#v-line {
+    position: absolute;
+    width: 4px;
+    height: 70px;
+    left: -1px;
+    top: -1px;
+    background-color: #4066A5;
+}
+
+#email {
+    width: 227px;
+    height: 24px;
+    margin-top: 23px;
+    margin-bottom: 24px;
+    margin-left: 41px;
+    border: none;
+    color: #6A707B;
+}
+
+#email::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6A707B;
+    border: none;
+}
+
+.arrow-btn {
+    border: none;
+    position: absolute;
+    width: 50px;
+    height: 65px;
+    top: 1px;
+    left: 597px;
+    background-color: #FFFFFF;
+}
+
+.arrow-btn svg {
+    position: absolute;
+    left: 1px;
+    top: 26px;
+    width: 24px;
+    height: 14px;
+    fill: rgba(19,24,33,0.3);
+}
+
+.terms-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 28px;
+    left: 35px;
+    top: 122px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+}
+
+#terms {
+    width: 26px;
+    height: 26px;
+    background-color: #4066A5;
+    border-radius: 3px;
+}
+
+.checkbox-label {
+    width: 359px;
+    height: 28px;
+    margin-left: 46px;
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+}
+
+.checkbox-label a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #131821;
+}
+
+#checkmark {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 14px;
+    background-color: fff;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    border: 1px solid #E3E3E4;
+}
+
+#checkmark::after {
+    content: url(images/ic_checkmark.svg);
+    position: absolute;
+    opacity: 0;
+    width: 14px;
+    height: 11px;
+    top: 1px;
+    left: 4px
+}
+
+#terms:checked ~ .checkbox-label > #checkmark{
+    background-color: #4066A5;
+}
+
+#terms:checked ~ .checkbox-label > #checkmark::after{
+    opacity: 1;
+}
+
+.h-line {
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 140px;
+    top: 740px;
+    background: #E3E3E4;
+}
+
+.social-media-ic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 244px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+}
+
+.ic-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border: 2px solid #E3E3E4;
+    border-radius: 50%;
+}
+
+.ic-border svg {
+    fill:  rgba(19, 24, 33, 0.3);
+}
+
+.ic-border.fb:hover {
+    border-color: #4267B2;
+    background-color:#4267B2;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.ic-border.ig:hover {
+    border-color: #C13584;
+    background-color: #C13584;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.ic-border.tw:hover {
+    border-color: #1DA1F2;
+    background-color: #1DA1F2;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.ic-border.yt:hover {
+    border-color: #FF0000;
+    background-color: #FF0000;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.ic-border:hover svg{
+    fill: #FFFFFF;
+}
+
+.ic-border.fb:active {
+    border-color: #2F4A80;
+    background-color: #2F4A80;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.ic-border.ig:active {
+    border-color: #8F2762;
+    background-color: #8F2762;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.ic-border.tw:active {
+    border-color: #177FBF;
+    background-color: #177FBF;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.ic-border.yt:active {
+    border-color: #CC0000;
+    background-color: #CC0000;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.ic-border:active svg{
+    fill: #FFFFFF;
+}
+
+.side-img-container {
+    position: absolute;
+    width: 1240px;
+    height: 1080px;
+    margin-left: 680px;
+}
+
+@media (max-width: 375px) {
+
+    .container {
+        width: 375px;
+        height: 812px;
+    }
+
+    .main-nav {
+        width: 375px;
+        height: 66px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .logo svg {
+        position: absolute;
+        width: 25px;
+        height: 40px;
+        left: 20px;
+        top: 10px;
+    }
+
+    .pineapple-logo img{
+        display: none;
+    }
+
+    .main-nav-link.first {
+        position: absolute;
+        width: 37px;
+        height: 24px;
+        left: 153px;
+        top: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #6A707B;
+    }
+
+    .main-nav-link.second {
+        position: absolute;
+        width: 80px;
+        height: 24px;
+        left: 180px;
+        top: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #6A707B;
+    }
+
+    .main-nav-link.third {
+        position: absolute;
+        width: 49px;
+        height: 24px;
+        left: 281px;
+        top: 21px;  
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px; 
+        color: #6A707B;
+    }
+
+    main {
+        position: absolute;
+        width: 335px;
+        height: 371px;
+        left: 20px;
+        top: 254px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+    }
+
+    .main-heading {
+        position: absolute;
+        width: 295px;
+        height: 34px;
+        left: 20px;
+        top: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 34px;
+        color: #131821;
+    }
+
+    .main-subheading {
+        position: absolute;
+        width: 295px;
+        height: 52px;
+        left: 20px;
+        top: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+
+    .subscribtion-form {
+        position: absolute;
+        width: 295px;
+        height: 60px;
+        left: 20px;
+        top: 145px;
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+    }
+
+    .email-container {
+        position: absolute;
+        width: 295px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1px solid #E3E3E4;
+        box-sizing: border-box;
+    }
+
+    #v-line {     
+        position: absolute;
+        width: 4px;
+        height: 60px;
+        background: #4066A5;
+    }
+
+    #email {
+        width: 227px;
+        height: 24px;
+        left: 10px;
+        top: 10px;
+        margin-top: 18px;
+        margin-bottom: 24px;
+        margin-left: 17px;
+        border: none;
+        color: #6A707B;
+    }
+
+    #email::placeholder {
+        position: absolute;
+        width: 227px;
+        height: 24px;
+        left: 59px;
+        top: 418px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #6A707B;
+    }
+
+    .arrow-btn {
+        border: none;
+        position: absolute;
+        width: 40px;
+        height: 53px;
+        left: 250px;
+        top: 1px;
+        background-color: #FFFFFF;
+    }
+
+    .arrow-btn svg {
+        position: absolute;
+        left: 5px;
+        top: 22px;
+        width: 24px;
+        height: 14px;
+    }
+
+    .terms-container {
+        position: absolute;
+        width: 295px;
+        height: 28px; 
+        left: -3px;
+        top: 82px;  
+    }
+
+    #terms {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        background-color: #4066A5;
+        border-radius: 3px;
+    }
+
+    .checkbox-label {
+        position: absolute;
+        width: 254px;
+        height: 28px;
+        left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        color: #6A707B;
+    }
+
+    #checkmark {
+        position: absolute;
+        top: -2px;
+        left: -43px;
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        margin-right: 11px;
+        background-color: fff;
+        border-radius: 3px;
+    }
+
+    .h-line {
+        position: absolute;
+        width: 295px;
+        height: 1px;
+        left: 40px;
+        top: 275px;
+        background: #E3E3E4;
+    }
+
+    .social-media-ic {
+        position: absolute;
+        width: 214px;
+        height: 46px;
+        left: 52px;
+        top: 293px;
+    }
+
+    .side-img-container {
+        background-image: url("/images/image_summer_mobile.png");
+        position: absolute;
+        width: 375px;
+        height: 746px;
+        left: 0px;
+        top: 66px;
+    }
+
+    .side-img-container img {
+        display: none;
+    }
+}
