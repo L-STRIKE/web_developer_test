@@ -12,9 +12,9 @@ These are solutions for junior web developer test tasks. Aim of the tasks was to
 
 ### Folder structure
 
-TASK_1 - email subscription form design (HTML and CSS)
-TASK_2 - email subscription form validation (jQuery)
-TASK_3 - email subscription form data preservation in database and output (PHP and MySQL)
+* TASK_1 - email subscription form design (HTML and CSS)
+* TASK_2 - email subscription form validation (jQuery)
+* TASK_3 - email subscription form data preservation in database and output (PHP and MySQL)
 
 ### Installation
 
